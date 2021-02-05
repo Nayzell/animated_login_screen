@@ -1,0 +1,37 @@
+name: flutter_bloc_authentication
+description: A simple Flutter project that showcases how to use the BLoC pattern for authentication with Sound and Interactive UI Login.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  bloc: ^6.0.3
+  flutter_bloc: ^6.0.6
+  equatable: ^1.0.2
+  lottie: ^0.7.0+1
+  audioplayers: ^0.10.0
+  animated_background: ^1.0.5
+  animated_text_kit: ^3.1.0
+  flutter:
+    sdk: flutter
+
+
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+  #this is the assets list and needed for the a in the code
+  assets:
+    - assets/GIFA.gif
+    - assets/PAD1.wav
+
+uses-material-design: true
